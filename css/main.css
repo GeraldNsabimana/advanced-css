@@ -1,0 +1,71 @@
+body{
+    background-color: #202020;
+    color: #358cb4;
+    font-size: 1.75em;
+}
+
+#site-title{
+    text-align: center;
+}
+
+Form{
+    border: 1px solid #358cb4;
+    box-shadow: 2px 5px 20px #358cb4;
+    padding: 10px;
+    
+}
+
+form label, form input{
+    display: block;
+    margin: auto;
+    width: 75%
+}
+
+form input{
+    margin-bottom: 15px;
+}
+
+.inlineIt{
+     display: inline;
+    width: 30px;
+} 
+
+select{
+    display: block;
+    margin:auto;
+}
+
+button{
+    text-align: center!important;
+}
+ 
+   
+#button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#threeImages{
+    margin-top: 40px;
+    background-color: white;
+    padding: 40px;
+}
+
+#threeImages img{
+    width:100%;
+    transition: 2s;
+}
+
+#Img1 img:hover{
+    transform: scale(1.25);
+}
+
+#Img2 img{
+    transform: rotate(-5deg);
+}
+
+#Img2 img:hover{
+    transform: rotate(160deg);
+}
+
+
